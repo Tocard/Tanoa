@@ -10197,6 +10197,14 @@
             <Polish>Kryjówka gangu 3</Polish>
             <Italian>Covo Gang 3</Italian>
         </Key>
+        <Key ID="STR_MAR_Gang_Hideout4">
+            <Original>Cachette 4</Original>
+            <French>Cachette 4</French>
+        </Key>
+        <Key ID="STR_MAR_Gang_Hideout5">
+            <Original>Cachette 5</Original>
+            <French>Cachette 5</French>
+        </Key>
         <Key ID="STR_MAR_Hunting_Grounds">
             <Original>Hunting Grounds</Original>
             <Czech>honební revír</Czech>
