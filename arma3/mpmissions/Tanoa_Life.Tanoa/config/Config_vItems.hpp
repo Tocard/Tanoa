@@ -226,7 +226,7 @@ class VirtualItems {
         variable = "goldBar";
         displayName = "STR_Item_GoldBar";
         weight = 12;
-        buyPrice = -1;
+        buyPrice = 95000;
         sellPrice = 95000;
         illegal = true;
         edible = -1;
@@ -304,7 +304,7 @@ class VirtualItems {
         variable = "oilProcessed";
         displayName = "STR_Item_OilP";
         weight = 6;
-        buyPrice = -1;
+        buyPrice = 3200;
         sellPrice = 3200;
         illegal = false;
         edible = -1;
@@ -326,7 +326,7 @@ class VirtualItems {
         variable = "copperRefined";
         displayName = "STR_Item_CopperIngot";
         weight = 3;
-        buyPrice = -1;
+        buyPrice = 1500;
         sellPrice = 1500;
         illegal = false;
         edible = -1;
@@ -348,7 +348,7 @@ class VirtualItems {
         variable = "ironRefined";
         displayName = "STR_Item_IronIngot";
         weight = 3;
-        buyPrice = -1;
+        buyPrice =3200;
         sellPrice = 3200;
         illegal = false;
         edible = -1;
@@ -370,7 +370,7 @@ class VirtualItems {
         variable = "saltRefined";
         displayName = "STR_Item_SaltR";
         weight = 1;
-        buyPrice = -1;
+        buyPrice = 1450;
         sellPrice = 1450;
         illegal = false;
         edible = -1;
@@ -392,7 +392,7 @@ class VirtualItems {
         variable = "glass";
         displayName = "STR_Item_Glass";
         weight = 1;
-        buyPrice = -1;
+        buyPrice = 1450;
         sellPrice = 1450;
         illegal = false;
         edible = -1;
@@ -414,7 +414,7 @@ class VirtualItems {
         variable = "diamondCut";
         displayName = "STR_Item_DiamondC";
         weight = 2;
-        buyPrice = -1;
+        buyPrice = 2000;
         sellPrice = 2000;
         illegal = false;
         edible = -1;
@@ -436,7 +436,7 @@ class VirtualItems {
         variable = "cement";
         displayName = "STR_Item_CementBag";
         weight = 5;
-        buyPrice = -1;
+        buyPrice = 1950;
         sellPrice = 1950;
         illegal = false;
         edible = -1;
@@ -506,7 +506,7 @@ class VirtualItems {
         variable = "cocaineProcessed";
         displayName = "STR_Item_CocaineP";
         weight = 4;
-        buyPrice = -1;
+        buyPrice = 5000;
         sellPrice = 5000;
         illegal = true;
         edible = -1;
@@ -750,7 +750,7 @@ class VirtualItems {
         variable = "turtleRaw";
         displayName = "STR_Item_TurtleRaw";
         weight = 6;
-        buyPrice = -1;
+        buyPrice = 3000;
         sellPrice = 3000;
         illegal = true;
         edible = -1;
