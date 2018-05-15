@@ -25,7 +25,8 @@ private _exit = false;
 private "_flag";
 
 if !(_shopSide isEqualTo "") then {
-    _flag = switch (playerSide) do {case west: {"cop"}; case independent: {"med"}; default {"civ"};};
+    //_flag = switch (playerSide) do {case west: {"cop"}; case independent: {"med"}; default {"civ"};};
+      _flag = switch (playerSide) do {case west: {"cop"}; case independent: {"cop"}; default {"civ"};};
     if !(_flag isEqualTo _shopSide) then {_exit = true;};
 };
 

@@ -15,11 +15,11 @@ class CfgServer {
     Disabled: If HeadlessSupport is set to 0 (disabled), the connection of a Headless Client will make no difference. This option will increase server performance a TINY but negligible amount.
     */
 };
-
 class RscTitles {
     #include "dialog\progress.hpp"
     #include "dialog\hud_nameTags.hpp"
     #include "dialog\hud_stats.hpp"
+    #include "UPM\Rsc\RscNotification.hpp"
 };
 
 class CfgFunctions {

@@ -66,6 +66,8 @@ class CarShops {
             { "C_Heli_Light_01_civil_F", "" },
             { "B_Heli_Light_01_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" },
+            { "pook_H13_civ_black", "" },
+            { "pook_H13_amphi", "" },
             { "C_Plane_Civil_01_F", "" } //Apex DLC
         };
     };
@@ -89,6 +91,8 @@ class CarShops {
             { "B_Quadbike_01_F", "" },
             { "B_G_Offroad_01_F", "" },
             { "O_MRAP_02_F", "" },
+             { "pook_H13_civ_black", "" },
+            { "pook_H13_amphi", "" },
             { "B_Heli_Light_01_stripped_F", "" },
             { "B_G_Offroad_01_armed_F", "" },
             { "O_T_LSV_02_unarmed_F", "" } //Apex DLC
@@ -223,6 +227,18 @@ class LifeCfgVehicles {
             }, "" }
         };
     };
+
+    class pook_H13_civ_black  {
+             vItemSpace = 75;
+            conditions = "license_civ_pilot";
+            price = 150000;
+    };
+
+    class pook_H13_amphib  {
+                vItemSpace = 75;
+                conditions = "license_civ_pilot";
+                price = 150000;
+        };
 
     // Apex DLC
     class C_Plane_Civil_01_F {

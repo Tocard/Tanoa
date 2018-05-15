@@ -11,6 +11,14 @@ class Socket_Reciever {
     };
 };
 
+class UPM {
+    tag = "UPM";
+    class UPM_system {
+        file = "UPM";
+        class showNotification {};
+    };
+};
+
 class SpyGlass {
     tag = "SPY";
     class Functions {
@@ -383,4 +391,5 @@ class Life_Client_Core {
         class vehTakeItem {};
         class vInteractionMenu {};
     };
+
 };

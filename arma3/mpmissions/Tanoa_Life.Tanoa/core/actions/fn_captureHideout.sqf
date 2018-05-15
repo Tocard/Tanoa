@@ -16,7 +16,7 @@ private _group = _hideout getVariable ["gangOwner",grpNull];
 
 if (isNil {group player getVariable "gang_name"}) exitWith {titleText[localize "STR_GNOTF_CreateGang","PLAIN"];};
 if (_group == group player) exitWith {titleText[localize "STR_GNOTF_Controlled","PLAIN"]};
-if ((_hideout getVariable ["inCapture",false])) exitWith {hint localize "STR_GNOTF_onePersonAtATime";};
+if ((_hideout getVariable ["inCapture",false])) exitWith {["Erreur" , localize "STR_GNOTF_onePersonAtATime","red"] call UPM_fnc_showNotification;};
 
 private "_action";
 private "_cpRate";

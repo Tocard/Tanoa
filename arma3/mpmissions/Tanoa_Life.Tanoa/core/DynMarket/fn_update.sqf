@@ -19,7 +19,7 @@ switch (_mode) do {
 	{
 		[DYNAMICMARKET_boughtItems] remoteExec ["TON_fnc_getUpdate",RSERV];
 		if (DYNMARKET_UserNotification) then {
-			hint _txt2;
+           ["Bourse" ,format["%1 ", _txt1], "green"] call UPM_fnc_showNotification;
 		};
 		DYNAMICMARKET_boughtItems = [];
 	};
@@ -30,7 +30,7 @@ switch (_mode) do {
 		sell_array = _itemArray;
 		DYNMARKET_prices = _itemArray;
 		if (DYNMARKET_UserNotification) then {
-			hint _txt1;
+			["Bourse",format["%1 ", _txt2], "green"] call UPM_fnc_showNotification;
 		};
 		if (_needToUpdate) then {DYNMARKET_pricesOld = DYNMARKET_prices;};
 	};

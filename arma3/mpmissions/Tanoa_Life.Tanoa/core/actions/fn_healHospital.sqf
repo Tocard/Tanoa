@@ -11,10 +11,9 @@
 */
 private ["_healCost","_action"];
 if (life_action_inUse) exitWith {};
-if ((damage player) < 0.01) exitWith {hint localize "STR_NOTF_HS_FullHealth"};
+if ((damage player) < 0.01) exitWith {["Erreur" , localize "STR_NOTF_HS_FullHealth","red"] call UPM_fnc_showNotification;};
 _healCost = LIFE_SETTINGS(getNumber,"hospital_heal_fee");
-if (CASH < _healCost) exitWith {hint format [localize "STR_NOTF_HS_NoCash",[_healCost] call life_fnc_numberText];};
-
+if (CASH < _healCost) exitWith {["Erreur" ,format [localize "STR_NOTF_HS_NoCash",[_healCost] call life_fnc_numberText],"red"] call UPM_fnc_showNotification;};
 life_action_inUse = true;
 _action = [
     format [localize "STR_NOTF_HS_PopUp",[_healCost] call life_fnc_numberText],
@@ -33,7 +32,7 @@ if (_action) then {
     CASH = CASH - _healCost;
     life_action_inUse = false;
 } else {
-    hint localize "STR_NOTF_ActionCancel";
+    ["Erreur" , localize "STR_NOTF_ActionCancel","red"] call UPM_fnc_showNotification;
     closeDialog 0;
     life_action_inUse = false;
 };
