@@ -66,8 +66,6 @@ class CarShops {
             { "C_Heli_Light_01_civil_F", "" },
             { "B_Heli_Light_01_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" },
-            { "pook_H13_civ_black", "" },
-            { "pook_H13_amphi", "" },
             { "C_Plane_Civil_01_F", "" } //Apex DLC
         };
     };
@@ -85,7 +83,7 @@ class CarShops {
     };
 
     class reb_car {
-        side = "civ";
+        side = "apa";
         conditions = "";
         vehicles[] = {
             { "B_Quadbike_01_F", "" },
@@ -99,25 +97,38 @@ class CarShops {
         };
     };
 
-    class med_shop {
+    class med_car {
         side = "med";
-        conditions = "";
-        vehicles[] = {
-            { "C_Offroad_01_F", "" },
-            { "I_Truck_02_medical_F", "" },
-            { "O_Truck_03_medical_F", "" },
-            { "B_Truck_01_medical_F", "" }
-        };
+       conditions = "";
+               vehicles[] = {
+                   { "C_Offroad_01_F", "" },
+                   { "C_SUV_01_F", "" },
+                   { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" },
+                   { "B_MRAP_01_F", "call life_coplevel >= 2" },
+                   { "B_MRAP_01_hmg_F", "call life_coplevel >= 3" }
+               };
     };
 
-    class med_air_hs {
+    class med_air {
         side = "med";
-        conditions = "";
-        vehicles[] = {
-            { "B_Heli_Light_01_F", "" },
-            { "O_Heli_Light_02_unarmed_F", "" }
-        };
+        conditions = "call life_coplevel >= 3";
+              vehicles[] = {
+                  { "B_Heli_Light_01_F", "" },
+                  { "B_Heli_Transport_01_F", "call life_coplevel >= 4" }
+              };
     };
+
+    class med_ship {
+            side = "med";
+            conditions = "";
+            vehicles[] = {
+                { "B_Boat_Transport_01_F", "" },
+                { "C_Boat_Civil_01_police_F", "" },
+                { "C_Boat_Transport_02_F", "" }, //Apex DLC
+                { "B_Boat_Armed_01_minigun_F", "call life_coplevel >= 3" },
+                { "B_SDV_01_F", "" }
+            };
+        };
 
     class cop_car {
         side = "cop";
@@ -227,18 +238,6 @@ class LifeCfgVehicles {
             }, "" }
         };
     };
-
-    class pook_H13_civ_black  {
-             vItemSpace = 75;
-            conditions = "license_civ_pilot";
-            price = 150000;
-    };
-
-    class pook_H13_amphib  {
-                vItemSpace = 75;
-                conditions = "license_civ_pilot";
-                price = 150000;
-        };
 
     // Apex DLC
     class C_Plane_Civil_01_F {

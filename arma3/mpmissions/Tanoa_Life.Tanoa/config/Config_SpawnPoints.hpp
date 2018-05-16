@@ -20,47 +20,75 @@ class CfgSpawnPoints {
                 conditions = "!license_civ_rebel";
             };
 
-            class Balavu {
-                displayName = "Balavu";
+            class Oumere {
+                displayName = "Oumere";
                 spawnMarker = "civ_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
-            class Tuvanaka {
-                displayName = "Tuvanaka";
+            class Tanouka {
+                displayName = "Tanouka";
                 spawnMarker = "civ_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
             class Lijnhaven {
-                displayName = "Lijnhaven";
-                spawnMarker = "civ_spawn_4";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
-            };
+                              displayName = "Lijnhaven";
+                              spawnMarker = "civ_spawn_4";
+                              icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                              conditions = "";
+                          };
+            class Harcourt {
+                            displayName = "Harcout";
+                            spawnMarker = "civ_spawn_5";
+                            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                            conditions = "";
+                        };
+            class LaRochelle {
+                            displayName = "La Rochelle";
+                            spawnMarker = "civ_spawn_6";
+                            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                            conditions = "";
+                        };
+        };
 
-            class RebelNW {
-                displayName = $STR_SP_Reb_NW;
-                spawnMarker = "Rebelop";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
-            };
+        class Apatrides {
+             class RebelNW {
+                        displayName = $STR_SP_Reb_NW;
+                        spawnMarker = "Rebelop";
+                        icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
+                        conditions = "license_civ_rebel";
+             };
 
-            class RebelS {
-                displayName = $STR_SP_Reb_S;
-                spawnMarker = "Rebelop_1";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
-            };
+             class RebelS {
+                        displayName = $STR_SP_Reb_S;
+                        spawnMarker = "Rebelop_1";
+                        icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
+                        conditions = "license_civ_rebel";
+             };
 
-            class RebelNE {
-                displayName = $STR_SP_Reb_NE;
-                spawnMarker = "Rebelop_2";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
-            };
+             class RebelNE {
+                        displayName = $STR_SP_Reb_NE;
+                        spawnMarker = "Rebelop_2";
+                        icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
+                        conditions = "license_civ_rebel";
+             };
+
+             class Rebel {
+                                   displayName = $STR_SP_Reb_NE;
+                                    spawnMarker = "Rebelop_3";
+                                    icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
+                                    conditions = "license_civ_rebel";
+             };
+
+             class Rebelz {
+                                                            displayName = $STR_SP_Reb_NE;
+                                                            spawnMarker = "Rebelop_4";
+                                                            icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
+                                                            conditions = "license_civ_rebel";
+             };
         };
 
         class Cop {
@@ -84,20 +112,6 @@ class CfgSpawnPoints {
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
-
-            class Air {
-                displayName = $STR_MAR_Police_Air_HQ;
-                spawnMarker = "cop_spawn_4";
-                icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-                conditions = "call life_coplevel >= 2 && {license_cop_cAir}";
-            };
-
-            class HW {
-                displayName = $STR_MAR_Highway_Patrol;
-                spawnMarker = "cop_spawn_5";
-                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-                conditions = "call life_coplevel >= 3";
-            };
         };
 
         class Medic {
@@ -112,21 +126,21 @@ class CfgSpawnPoints {
             class SEHospital {
                 displayName = $STR_SP_EMS_SE;
                 spawnMarker = "medic_spawn_1";
-                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
 
             class TanoukaHospital {
                 displayName = $STR_SP_EMS_Tan;
                 spawnMarker = "medic_spawn_2";
-                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
 
             class NEAirportHospital {
                 displayName = $STR_SP_EMS_NEair;
                 spawnMarker = "medic_spawn_3";
-                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
 

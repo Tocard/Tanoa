@@ -187,4 +187,11 @@ class Licenses {
         illegal = false;
         side = "med";
     };
+    class cgmed {
+            variable = "cg";
+            displayName = "STR_License_CG";
+            price = 8000;
+            illegal = false;
+            side = "med";
+        };
 };
