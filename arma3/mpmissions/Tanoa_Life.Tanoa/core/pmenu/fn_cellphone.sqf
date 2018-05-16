@@ -25,6 +25,7 @@ if (FETCH_CONST(life_adminlevel) < 1) then {
         _type = switch (side _x) do {
             case west: {"Cop"};
             case civilian: {"Civ"};
+            case east: {"Civ"};
             case independent: {"Med"};
         };
         _units lbAdd format ["%1 (%2)",_x getVariable ["realname",name _x],_type];

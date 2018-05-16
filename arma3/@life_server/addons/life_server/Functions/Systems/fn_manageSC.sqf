@@ -29,6 +29,14 @@ switch (_side) do {
         };
     };
 
+    case east: {
+            if (_bool) then {
+                life_radio_civ radioChannelAdd [_unit];
+            } else {
+                life_radio_civ radioChannelRemove [_unit];
+            };
+        };
+
     case independent: {
         if (_bool) then {
             life_radio_indep radioChannelAdd [_unit];

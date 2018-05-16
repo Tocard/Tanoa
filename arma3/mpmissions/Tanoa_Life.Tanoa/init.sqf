@@ -12,6 +12,7 @@ if (hasInterface) then {
 };
 [] execVM "KRON_Strings.sqf";
 
+
 StartProgress = true;
 //bourse 5.0
 DYNAMICMARKET_boughtItems = [];

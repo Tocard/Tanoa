@@ -18,7 +18,9 @@ switch (playerSide) do {
     case civilian: {
         ctrlShow[2012,false];
     };
-
+case east: {
+        ctrlShow[2012,false];
+    };
     case independent: {
         ctrlShow[2012,false];
         ctrlShow[2011,false];

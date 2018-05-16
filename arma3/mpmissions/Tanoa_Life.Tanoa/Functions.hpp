@@ -37,6 +37,7 @@ class Life_Client_Core {
         class initCiv {};
         class initCop {};
         class initMedic {};
+        class initReb {};
         class setupActions {};
         class setupEVH {};
         class survival {};
