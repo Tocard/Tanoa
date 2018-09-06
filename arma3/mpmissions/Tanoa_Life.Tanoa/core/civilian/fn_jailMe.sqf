@@ -6,6 +6,8 @@
     Description:
     Once word is received by the server the rest of the jail execution is completed.
 */
+/* TODO: Dupliquer ce code pour prison_marqueur_est */
+
 private ["_time","_bail","_esc","_countDown"];
 
 params [

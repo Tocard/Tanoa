@@ -17,7 +17,7 @@ class CfgSpawnPoints {
                 displayName = "Georgetown";
                 spawnMarker = "civ_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "!license_civ_rebel";
+                conditions = "!license_apatride";
             };
 
             class Oumere {
@@ -56,38 +56,38 @@ class CfgSpawnPoints {
 
         class Apatrides {
              class RebelNW {
-                        displayName = $STR_SP_Reb_NW;
-                        spawnMarker = "Rebelop";
+                        displayName = $STR_APATRIDE_TUVANAKA;
+                        spawnMarker = "Tuvanaka";
                         icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                        conditions = "license_civ_rebel";
+                        conditions = "license_apatride";
              };
 
              class RebelS {
-                        displayName = $STR_SP_Reb_S;
-                        spawnMarker = "Rebelop_1";
+                        displayName = $STR_APATRIDE_BALA;
+                        spawnMarker = "Bala";
                         icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                        conditions = "license_civ_rebel";
+                        conditions = "license_apatride";
              };
 
              class RebelNE {
-                        displayName = $STR_SP_Reb_NE;
-                        spawnMarker = "Rebelop_2";
+                        displayName = $STR_APATRIDE_TAIGA;
+                        spawnMarker = "Taïga";
                         icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                        conditions = "license_civ_rebel";
+                        conditions = "license_apatride";
              };
 
              class Rebel {
-                                   displayName = $STR_SP_Reb_NE;
-                                    spawnMarker = "Rebelop_3";
+                                   displayName = $STR_PIRATE_RAVI-TA;
+                                    spawnMarker = "Ravi-ta";
                                     icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                                    conditions = "license_civ_rebel";
+                                    conditions = "license_pirate";
              };
 
              class Rebelz {
-                                                            displayName = $STR_SP_Reb_NE;
-                                                            spawnMarker = "Rebelop_4";
+                                                            displayName = $PIRATE_SOSOVU;
+                                                            spawnMarker = "Sosovu";
                                                             icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                                                            conditions = "license_civ_rebel";
+                                                            conditions = "license_pirate";
              };
         };
 
@@ -117,7 +117,7 @@ class CfgSpawnPoints {
         class Medic {
             class Lijnhaven {
                             displayName = "Lijnhaven";
-                            spawnMarker = "cop_spawn_6";
+                            spawnMarker = "armee_est_spawn_1";
                             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                             conditions = "";
                         };
