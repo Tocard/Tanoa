@@ -305,7 +305,7 @@ class ScenarioData
 	{
 		gameType="RPG";
 		minPlayers=1;
-		maxPlayers=126;
+		maxPlayers=158;
 	};
 	wreckLimit=3;
 	wreckRemovalMinTime=60;
