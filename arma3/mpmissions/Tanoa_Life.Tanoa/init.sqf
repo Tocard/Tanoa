@@ -14,6 +14,3 @@ if (hasInterface) then {
 
 
 StartProgress = true;
-//bourse 5.0
-DYNAMICMARKET_boughtItems = [];
-[player] remoteExec ["TON_fnc_playerLogged",RSERV];
