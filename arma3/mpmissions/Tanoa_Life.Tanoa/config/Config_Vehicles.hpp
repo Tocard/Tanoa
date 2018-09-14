@@ -71,18 +71,30 @@ class CarShops {
     };
 
      class civ_ship {
-        side = "civ";
-        conditions = "";
-        vehicles[] = {
-            { "C_Rubberboat", "" },
-            { "C_Boat_Civil_01_F", "" },
-            { "B_SDV_01_F", "" },
-            { "C_Boat_Transport_02_F", "" }, //Apex DLC
-            { "C_Scooter_Transport_01_F", "" } //Apex DLC
-        };
-    };
+              side = "civ";
+              conditions = "";
+              vehicles[] = {
+                  { "C_Rubberboat", "" },
+                  { "C_Boat_Civil_01_F", "" },
+                  { "B_SDV_01_F", "" },
+                  { "C_Boat_Transport_02_F", "" }, //Apex DLC
+                  { "C_Scooter_Transport_01_F", "" } //Apex DLC
+              };
+          };
 
-    class reb_car {
+    class bateau_pirate {
+            side = "pirate";
+            conditions = "";
+            vehicles[] = {
+                { "C_Rubberboat", "" },
+                { "C_Boat_Civil_01_F", "" },
+                { "B_SDV_01_F", "" },
+                { "C_Boat_Transport_02_F", "" }, //Apex DLC
+                { "C_Scooter_Transport_01_F", "" } //Apex DLC
+            };
+        };
+
+    class apatride_garage {
         side = "apa";
         conditions = "";
         vehicles[] = {
@@ -96,6 +108,21 @@ class CarShops {
             { "O_T_LSV_02_unarmed_F", "" } //Apex DLC
         };
     };
+
+    class pirate_garage {
+            side = "pirate";
+            conditions = "";
+            vehicles[] = {
+                { "B_Quadbike_01_F", "" },
+                { "B_G_Offroad_01_F", "" },
+                { "O_MRAP_02_F", "" },
+                 { "pook_H13_civ_black", "" },
+                { "pook_H13_amphi", "" },
+                { "B_Heli_Light_01_stripped_F", "" },
+                { "B_G_Offroad_01_armed_F", "" },
+                { "O_T_LSV_02_unarmed_F", "" } //Apex DLC
+            };
+        };
 
     class med_car {
         side = "med";
@@ -463,7 +490,7 @@ class LifeCfgVehicles {
 
     class B_G_Offroad_01_armed_F {
         vItemSpace = 65;
-        conditions = "license_civ_rebel || {!(playerSide isEqualTo civilian)}";
+        conditions = "license_apatride || {!(playerSide isEqualTo civilian)}";
         price = 750000;
         textures[] = { };
     };

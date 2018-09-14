@@ -154,13 +154,21 @@ class Licenses {
         side = "civ";
     };
 
-    class rebel {
-        variable = "rebel";
-        displayName = "STR_License_Rebel";
+    class apatride {
+        variable = "apatride";
+        displayName = "STR_LICENSE_APATRIDE";
         price = 75000;
         illegal = true;
         side = "civ";
     };
+
+     class pirate {
+            variable = "pirate";
+            displayName = "STR_LICENSE_PIRATE";
+            price = 75000;
+            illegal = true;
+            side = "civ";
+        };
 
     //Cop Licenses
     class cAir {

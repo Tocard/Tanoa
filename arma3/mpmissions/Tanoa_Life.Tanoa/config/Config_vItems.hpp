@@ -23,12 +23,19 @@ class VirtualShops {
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach", "defibrillator" };
     };
 
-    class rebel {
-        name = "STR_Shops_Rebel";
-        side = "civ";
-        conditions = "license_civ_rebel";
+    class apatride {
+        name = "STR_MARCHE_APATRIDE";
+        side = "apa";
+        conditions = "license_apatride";
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
+
+    class pirate {
+            name = "STR_MARCHE_PIRATE";
+            side = "pirate";
+            conditions = "license_pirate";
+            items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        };
 
     class gang {
         name = "STR_Shops_Gang";
@@ -37,7 +44,7 @@ class VirtualShops {
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
 
-    class wongs {
+    class marche_noir_marin {
         name = "STR_Shops_Wongs";
         side = "civ";
         conditions = "";

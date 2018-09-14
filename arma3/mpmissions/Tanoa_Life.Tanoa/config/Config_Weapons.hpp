@@ -46,10 +46,10 @@ class WeaponShops {
         };
     };
 
-    class rebel {
+    class apatride {
         name = "Mohammed's Jihadi Shop";
         side = "civ";
-        conditions = "license_civ_rebel";
+        conditions = "license_apatride";
         items[] = {
             { "arifle_TRG20_F", "", 25000, 12500, "" },
             { "arifle_Katiba_F", "", 30000, 15000, "" },
@@ -78,6 +78,39 @@ class WeaponShops {
             { "acc_flashlight", "", 1000, 500, "" }
         };
     };
+
+    class pirate {
+            name = "STR_ARME_PIRATE";
+            side = "civ";
+            conditions = "license_pirate";
+            items[] = {
+                { "arifle_TRG20_F", "", 25000, 12500, "" },
+                { "arifle_Katiba_F", "", 30000, 15000, "" },
+                { "srifle_DMR_01_F", "", 50000, 25000, "" },
+                { "arifle_SDAR_F", "", 20000, 10000, "" },
+                { "arifle_AK12_F", "", 22000, 11000, "" }, //Apex DLC
+                { "arifle_AKS_F", "", 22000, 11000, "" }, //Apex DLC
+                { "arifle_AKM_F", "", 22000, 11000, "" }, //Apex DLC
+                { "arifle_ARX_blk_F", "", 22000, 11000, "" }, //Apex DLC
+                { "arifle_SPAR_01_blk_F", "", 33000, 16500, "" }, //Apex DLC
+                { "arifle_CTAR_blk_F", "", 30000, 15000, "" } //Apex DLC
+            };
+            mags[] = {
+                { "30Rnd_556x45_Stanag", "", 300, 150, "" },
+                { "30Rnd_762x39_Mag_F", "", 300, 150, "" }, //Apex DLC
+                { "30Rnd_545x39_Mag_F", "", 300, 150, "" }, //Apex DLC
+                { "30Rnd_65x39_caseless_green", "", 275, 140, "" },
+                { "10Rnd_762x54_Mag", "", 500, 250, "" },
+                { "20Rnd_556x45_UW_mag", "", 125, 60, "" },
+                { "30Rnd_580x42_Mag_F", "", 125, 60, "" } //Apex DLC
+            };
+            accs[] = {
+                { "optic_ACO_grn", "", 3500, 1750, "" },
+                { "optic_Holosight", "", 3600, 1800, "" },
+                { "optic_Hamr", "", 7500, 3750, "" },
+                { "acc_flashlight", "", 1000, 500, "" }
+            };
+        };
 
     class gang {
         name = "Hideout Armament";
