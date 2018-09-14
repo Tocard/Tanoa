@@ -24002,7 +24002,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={13251,12,13624};
-			name="civ_ship_5";
+			name="pirate_eau_2";
 			text="@STR_MAR_Boat_Spawn";
 			type="loc_Quay";
 			colorName="ColorOrange";
@@ -24022,7 +24022,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_5"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_5""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide isEqualTo civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];}";
+				init="call{this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""pirate_eau_2"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""pirate_eau_2""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide isEqualTo civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];}";
 			};
 			id=5850;
 			type="Land_CashDesk_F";
@@ -24055,7 +24055,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={13236.82,-4.2631187,13659.132};
-			name="boat_2_4";
+			name="pirate_shop_boat_2";
 			text="@STR_MAR_Boat_Shop";
 			type="c_ship";
 			colorName="ColorWhite";
@@ -24180,7 +24180,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={2364.5518,3.7959526,9840.4619};
-			name="civ_ship_7";
+			name="pirate_eau_1";
 			text="@STR_MAR_PIRATE_Boat_Spawn";
 			type="loc_Quay";
 			colorName="ColorOrange";
@@ -24200,7 +24200,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_7"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_6""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide isEqualTo civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];}";
+				init="call{this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Boat_Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""pirate_eau_1"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Ship"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""pirate_eau_1""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide isEqualTo civilian'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];}";
 			};
 			id=5880;
 			type="Land_CashDesk_F";
@@ -24232,7 +24232,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={2400.5701,-1.5,9858.6016};
-			name="boat_2_6";
+			name="pirate_shop_boat_1";
 			text="@STR_PIRATE_Boat_Shop";
 			type="c_ship";
 			colorName="ColorWhite";
@@ -25222,7 +25222,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={2684.9158,0,9371.8994};
-			name="reb_v_4";
+			name="pirate_sol_1";
 			type="Empty";
 			angle=91.108063;
 			id=5925;
@@ -25232,7 +25232,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={2669.437,1.0176977,9368.8154};
-			name="reb_v_1_4";
+			name="pirate_air_1";
 			type="Empty";
 			angle=81.014717;
 			id=5926;
@@ -25425,7 +25425,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",east,[""reb_v_4"",""reb_v_1_4""],""apa"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];}";
+				init="call{removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",east,[""pirate_sol_1"",""pirate_air_1""],""apa"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];}";
 				name="Rebelle_Voiture_3";
 			};
 			id=5938;
@@ -25679,7 +25679,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={12842.732,0.78421628,14383.574};
-			name="reb_v_5";
+			name="pirate_sol_2";
 			type="Empty";
 			angle=91.108063;
 			id=5949;
@@ -25689,7 +25689,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={12805.732,1.9846193,14361.574};
-			name="reb_v_1_5";
+			name="pirate_air_2";
 			type="Empty";
 			angle=81.014717;
 			id=5950;
@@ -25890,7 +25890,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""reb_v_5"",""reb_v_1_5""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];}";
+				init="call{removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""pirate_sol_2"",""pirate_air_2""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];}";
 				name="Rebelle_Voiture_4";
 			};
 			id=5962;
