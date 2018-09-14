@@ -24181,7 +24181,7 @@ class Mission
 			dataType="Marker";
 			position[]={2364.5518,3.7959526,9840.4619};
 			name="civ_ship_7";
-			text="@STR_MAR_Boat_Spawn";
+			text="@STR_MAR_PIRATE_Boat_Spawn";
 			type="loc_Quay";
 			colorName="ColorOrange";
 			id=5879;
@@ -24233,7 +24233,7 @@ class Mission
 			dataType="Marker";
 			position[]={2400.5701,-1.5,9858.6016};
 			name="boat_2_6";
-			text="@STR_MAR_Boat_Shop";
+			text="@STR_PIRATE_Boat_Shop";
 			type="c_ship";
 			colorName="ColorWhite";
 			id=5881;
@@ -25212,7 +25212,7 @@ class Mission
 			dataType="Marker";
 			position[]={2651.6099,3.6943359,9269.5957};
 			name="Rebelop_3";
-			text="@STR_MAR_Rebel_Outpost";
+			text="@STR_MAR_PIRATE_Outpost";
 			type="mil_triangle";
 			colorName="Color1_FD_F";
 			id=5924;
@@ -25389,7 +25389,7 @@ class Mission
 			dataType="Marker";
 			position[]={2668.3677,102.29218,9368.2168};
 			name="rebel_heli_5";
-			text="@STR_Rebel_Heli";
+			text="@STR_PIRATE_HELI";
 			type="b_air";
 			colorName="ColorEAST";
 			id=5936;
@@ -25669,7 +25669,7 @@ class Mission
 			dataType="Marker";
 			position[]={12822.732,1.2933886,14381.574};
 			name="Rebelop_4";
-			text="@STR_MAR_Rebel_Outpost";
+			text="@STR_MAR_PIRATE_OUEST";
 			type="mil_triangle";
 			colorName="Color1_FD_F";
 			id=5948;
@@ -25853,7 +25853,7 @@ class Mission
 			dataType="Marker";
 			position[]={12804.732,92.592339,14356.574};
 			name="rebel_heli_6";
-			text="@STR_Rebel_Heli";
+			text="@STR_PIRATE_HELI";
 			type="b_air";
 			colorName="ColorEAST";
 			id=5960;
