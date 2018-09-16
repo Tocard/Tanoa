@@ -23,6 +23,22 @@
         </Key>
     </Package>
     <Package name="PIRATE">
+        <Key ID="STR_MAR_PIRATE_OUEST">
+            <Original>Base Pirate Ouest</Original>
+        </Key>
+        <Key ID="STR_MAR_PIRATE_NORD">
+            <Original>Rebel Outpost</Original>
+            <Original>Base Pirate Ouest</Original>
+        </Key>
+        <Key ID="STR_MAR_PIRATE_Boat_Spawn">
+            <Original>Port Pirate</Original>
+        </Key>
+        <Key ID="STR_PIRATE_Boat_Shop">
+            <Original>Vente de Bateau Volé</Original>
+        </Key>
+        <Key ID="STR_MAR_PIRATE_Boat_Spawn">
+            <French>Port Pirate</French>
+        </Key>
     </Package>
     <Package name="TANOA_EST">
     </Package>
