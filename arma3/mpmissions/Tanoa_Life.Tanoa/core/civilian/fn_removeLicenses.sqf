@@ -5,7 +5,9 @@
 
     Description:
     Used for stripping certain licenses off of civilians as punishment.
+    TODO: Passer sur ce script
 */
+
 private "_state";
 _state = param [0,1,[0]];
 

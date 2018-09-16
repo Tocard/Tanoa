@@ -56,9 +56,11 @@ ctrlSetText [3103,localize _shopTitle];
 sliderSetRange [3107, 0, 360];
 
 //Cop / Civ Pre Check
-if (_shop in ["bruce","dive","reb","kart"] && {!(playerSide isEqualTo civilian)}) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
-if (_shop == "reb" && {!license_civ_rebel}) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
+if (_shop in ["bruce","dive","apa","kart"] && {!(playerSide isEqualTo civilian)}) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
+if (_shop == "apa" && {!license_apatride}) exitWith {hint localize "STR_PAS_APATRIDE"; closeDialog 0;};
+if (_shop == "pirate" && {!license_pirate}) exitWith {hint localize "STR_PAS_PIRATE"; closeDialog 0;};
 if (_shop == "cop" && {!(playerSide isEqualTo west)}) exitWith {hint localize "STR_Shop_NotaCop"; closeDialog 0;};
+if (_shop == "mec" && {!(playerSide isEqualTo independent)}) exitWith {hint localize "STR_PAS_MILITAIRE_EST"; closeDialog 0;};
 if (_shop == "dive" && {!license_civ_dive}) exitWith {hint localize "STR_Shop_NotaDive"; closeDialog 0;};
 
 
@@ -72,7 +74,8 @@ if (LIFE_SETTINGS(getNumber,"clothing_noTP") isEqualTo 1) then {
         _pos = [1000,1000,10000];
     } else {
         _pos = switch _shop do {
-            case "reb": {[13590,12214.6,0.00141621]};
+            case "pirate": {[13590,12214.6,0.00141621]};
+            case "apa": {[13590,12214.6,0.00141621]};
             case "cop": {[12817.5,16722.9,0.00151062]};
             case "kart": {[14120.5,16440.3,0.00139236]};
             default {[17088.2,11313.6,0.00136757]};

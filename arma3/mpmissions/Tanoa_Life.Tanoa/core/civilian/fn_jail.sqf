@@ -6,6 +6,8 @@
     Description:
     Starts the initial process of jailing.
 */
+
+/* TODO: Dupliquer ce code pour prison_marqueur_est */
 private ["_illegalItems"];
 params [
     ["_unit",objNull,[objNull]],
