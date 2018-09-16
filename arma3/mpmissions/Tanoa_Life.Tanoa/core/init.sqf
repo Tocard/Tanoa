@@ -10,7 +10,7 @@
 private ["_handle","_timeStamp","_extDB_notLoaded"];
 life_firstSpawn = true;
 life_session_completed = false;
-0 cutText[localize "STR_Init_ClientSetup","BLACK FADED"];
+0 cutText[localize "STR_INIT_CLIENT","BLACK FADED"];
 0 cutFadeOut 9999999;
 _timeStamp = diag_tickTime;
 _extDB_notLoaded = "";
@@ -39,7 +39,7 @@ diag_log "::Life Client:: Waiting for server functions to transfer..";
 waitUntil {(!isNil "TON_fnc_clientGangLeader")};
 
 diag_log "::Life Client:: Received server functions.";
-0 cutText [localize "STR_Init_ServerReady","BLACK FADED"];
+0 cutText [localize "STR_INIT_SERVER","BLACK FADED"];
 0 cutFadeOut 99999999;
 
 diag_log "::Life Client:: Waiting for the server to be ready..";
@@ -47,14 +47,14 @@ waitUntil {!isNil "life_server_isReady"};
 waitUntil {!isNil "life_HC_isActive" && {!isNil "life_server_extDB_notLoaded"}};
 
 if (life_server_extDB_notLoaded) exitWith {
-    999999 cutText [localize "STR_Init_ExtdbFail","BLACK FADED"];
+    999999 cutText [localize "STR_INIT_BDD_FAIL","BLACK FADED"];
     999999 cutFadeOut 99999999;
 };
 
 waitUntil {life_server_isReady};
 [] call SOCK_fnc_dataQuery;
 waitUntil {life_session_completed};
-0 cutText[localize "STR_Init_ClientFinish","BLACK FADED"];
+0 cutText[localize "STR_INIT_CIENT_FINISH","BLACK FADED"];
 0 cutFadeOut 9999999;
 
 //diag_log "::Life Client:: Group Base Execution";
